@@ -969,46 +969,46 @@
 
 // !( task 26)
  
-let arr2 = [
-  { name: 'test', key: 1 },
-  { name: 'task', key: 2 },
-  { name: 'tanqo', key: 3 },
-  { name: 'like', key: 4 },
-  { name: 'task', key: 5 },
-  { name: 'trust', key: 6 },
-  { name: 'test', key: 7 },
-  { name: 'last', key: 8 },
-  { name: 'tanqo', key: 9 },
-  { name: 'elephant', key: 10 },
-  { name: 'love', key: 11 },
-  { name: 'small', key: 12 },
-  { name: 'little', key: 13 },
-];
+// let arr2 = [
+//   { name: 'test', key: 1 },
+//   { name: 'task', key: 2 },
+//   { name: 'tanqo', key: 3 },
+//   { name: 'like', key: 4 },
+//   { name: 'task', key: 5 },
+//   { name: 'trust', key: 6 },
+//   { name: 'test', key: 7 },
+//   { name: 'last', key: 8 },
+//   { name: 'tanqo', key: 9 },
+//   { name: 'elephant', key: 10 },
+//   { name: 'love', key: 11 },
+//   { name: 'small', key: 12 },
+//   { name: 'little', key: 13 },
+// ];
 
-function countLetters(arr) {
-  let letterCount = {};
-  let mostFrequentLetter = '';
-  let maxCount = 0;
+// function countLetters(arr) {
+//   let letterCount = {};
+//   let mostFrequentLetter = '';
+//   let maxCount = 0;
 
-  for (let i = 0; i < arr.length; i++) {
-    const name = arr[i].name.toLowerCase('az');
-    for (let j = 0; j < name.length; j++) {
-      const letter = name[j];
-      letterCount[letter] = (letterCount[letter] || 0) + 1;
-      if (letterCount[letter] > maxCount) {
-        maxCount = letterCount[letter];
-        mostLetter = letter;
-      }
-    }
-  }
+//   for (let i = 0; i < arr.length; i++) {
+//     const name = arr[i].name.toLowerCase('az');
+//     for (let j = 0; j < name.length; j++) {
+//       const letter = name[j];
+//       letterCount[letter] = (letterCount[letter] || 0) + 1;
+//       if (letterCount[letter] > maxCount) {
+//         maxCount = letterCount[letter];
+//         mostLetter = letter;
+//       }
+//     }
+//   }
 
-  return { letterCount, mostLetter, maxCount };
-}
+//   return { letterCount, mostLetter, maxCount };
+// }
 
-let result = countLetters(arr2);
-console.log("Hərflərin sayı : ", result.letterCount);
-console.log("Ən çox rast gəlinən hərf:", result.mostLetter);
-console.log("Ən çox rast gəlinən hərf sayı:", result.maxCount);
+// let result = countLetters(arr2);
+// console.log("Hərflərin sayı : ", result.letterCount);
+// console.log("Ən çox rast gəlinən hərf:", result.mostLetter);
+// console.log("Ən çox rast gəlinən hərf sayı:", result.maxCount);
 
 
 
